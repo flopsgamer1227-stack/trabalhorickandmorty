@@ -1,0 +1,24 @@
+ROTEIRO DO VÍDEO PITCH — ATÉ 4 MINUTOS
+
+1) Apresentação (30–40 segundos)
+“Olá! Este é o Portal Rick and Morty, um projeto desenvolvido para a disciplina de Desenvolvimento Web Front-End. A proposta é apresentar personagens da animação utilizando informações recebidas de uma API pública. A interface foi feita com HTML, CSS e JavaScript puro.”
+
+2) Demonstração do site (40–60 segundos)
+“Na página inicial temos a apresentação do projeto. Na seção Personagens, os cards são carregados automaticamente. Cada card mostra imagem, nome, status, espécie e origem. Também implementei uma busca por nome, filtro por status e paginação.”
+
+3) Demonstração técnica (1 minuto)
+“Agora vou mostrar como os dados chegam ao site. No arquivo script.js, a função loadCharacters utiliza fetch para consultar o endereço da API. Depois, a resposta é convertida para JSON. Os dados dos personagens ficam disponíveis no array results.”
+
+4) Criação dinâmica dos cards (1 minuto)
+“Na função createCharacterCard, utilizo document.createElement para criar os elementos HTML de cada card. Depois, na função renderCharacters, percorro a lista com forEach e utilizo appendChild para inserir cada card na página. Portanto, os cards não estão escritos individualmente no HTML: são criados conforme os dados recebidos da API.”
+
+5) Encerramento (20–30 segundos)
+“Com esse projeto pratiquei consumo de API, manipulação do DOM, criação dinâmica de elementos e responsividade com CSS. Obrigado!”
+
+LEMBRETES PARA GRAVAR
+- Mostre o site funcionando e aguarde os cards carregarem.
+- Abra o DevTools do navegador com F12.
+- Na aba Network/Rede, atualize a página e mostre a requisição para rickandmortyapi.com.
+- Na aba Elements/Elementos, abra a seção #characterGrid e mostre os cards inseridos.
+- No editor, mostre fetch, createElement e appendChild no arquivo script.js.
+- Publique o vídeo no YouTube como “Não listado” e copie o link para a entrega.
